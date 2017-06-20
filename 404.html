@@ -21,9 +21,7 @@
         }
 
         body {
-            display: table-cell;
-            vertical-align: middle;
-            margin: 2em auto;
+            margin: auto;
         }
 
         h1 {
@@ -34,7 +32,10 @@
 
         p {
             margin: 0 auto;
-            width: 280px;
+            width: 25%;
+        }
+        #message {
+            font-size: 10em;
         }
 
         @media only screen and (max-width: 280px) {
@@ -53,8 +54,10 @@
     </style>
 </head>
 <body>
-    <h1>Page Not Found</h1>
-    <p>Sorry, but the page you were trying to view does not exist.</p>
+    <img src="img/404.jpg"/>
+    <h1 id="message">404</h1>
+    <br/>
+    <p>Stand amongst the ashes of a trillion dead [webpages] and ask the ghosts if honor matters. The silence is your answer.</p>
 </body>
 </html>
 <!-- IE needs 512+ bytes: http://blogs.msdn.com/b/ieinternals/archive/2010/08/19/http-error-pages-in-internet-explorer.aspx -->
