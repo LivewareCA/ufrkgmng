@@ -105,13 +105,24 @@ body {
     padding: 0;
 }
 
+#logo {
+    margin: 5% auto;
+    display:flex; 
+    justify-content:center;
+}
+
 #ologo {
     display:flex;
     justify-content:center;
     align-items:center;
 }
 
-
+.clock {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 0 auto;
+}
 
 
 
