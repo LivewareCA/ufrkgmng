@@ -101,10 +101,14 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 #ologo {
-    margin: 0 -10%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 
